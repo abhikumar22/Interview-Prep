@@ -16,7 +16,7 @@ const debounceFn = function(fn, delay){
 // Function that will be called for API
 const apiCall = (params) => {
     // here to do the api call
-    console.log(params.target.value)
+    console.log("hi",params.target.value)
 }
 
 
